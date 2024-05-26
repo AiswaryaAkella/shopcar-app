@@ -6,18 +6,30 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { HeaderComponent } from './components/header/header.component';
+import {MatRadioModule} from '@angular/material/radio';
+import { VehicleStyleComponent } from './components/vehicle-style/vehicle-style.component';
+import { VehiclesComponent } from './components/vehicles/vehicles.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { FormsModule } from '@angular/forms'; 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    VehicleStyleComponent,
+    VehiclesComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    MatRadioModule,
+    MatGridListModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,33 @@
+
+.heading{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px, solid black;
+    background-color: yellow;
+    }
+.right {
+    padding-right: 15px;
+}
+.right-group {
+    display: flex;
+    justify-content: flex-end; 
+    padding-right: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.left{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  .make-filter{
+    border: 1px, solid black;
+    background-color: lightcoral;
+    margin-top: 5px;
+  }
+
+  .reset-button{
+    display: flex;
+    justify-content: flex-end;
+  }

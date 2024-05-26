@@ -1,0 +1,14 @@
+<div class="filter">
+  <div class="title-container">
+  <span> Filter Vehicle styles </span>
+    <span class="reset-button">
+      <button mat-flat-button (click)="resetSelected()">Reset </button>
+    </span>
+  </div>
+    <mat-radio-group aria-label="Select an option" [(ngModel)]="selectedVehicleType">
+     <mat-radio-button value="1" (click)="showAllClicked()">Show All</mat-radio-button>
+     <mat-radio-button value="2"(click)="hatchBackClicked()">HatchBack</mat-radio-button>
+     <mat-radio-button value="3" (click)="suvClicked()">SUV</mat-radio-button>
+     <mat-radio-button value="4" (click)="sedanClicked()">Sedan</mat-radio-button>
+   </mat-radio-group>
+ </div>

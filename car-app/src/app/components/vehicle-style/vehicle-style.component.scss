@@ -1,0 +1,13 @@
+.filter{
+    border: 1px, solid black;
+    background-color: lightcyan;
+    margin-top: 5px;
+}
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+
+  .reset-button{
+    display: flex;
+    justify-content: flex-end;
+  }

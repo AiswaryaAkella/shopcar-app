@@ -1,0 +1,28 @@
+<div class="heading">
+    <span class="left"> Welcome to your car search!!!!!!!!!!!!!</span>
+    <div class="right-group">
+        <span class="right">Contact Us</span>
+        <span class="right">Sign Up</span>
+    </div>
+</div>
+
+
+
+<div class="make-filter">
+    <span> Filter Vehicle Make </span>
+    <span class="reset-button">
+        <button mat-flat-button (click)="resetSelected()">Reset </button>
+      </span>
+    <mat-radio-group aria-label="Select an option" [(ngModel)]="selectedHeaderType" >
+    <mat-radio-button value="1" (click)="showAllClicked()">Show All</mat-radio-button>
+     <mat-radio-button value="2" (click)="toyotaClicked()">Toyota</mat-radio-button>
+     <mat-radio-button value="3" (click)="hondaClicked()">Honda</mat-radio-button>
+     <mat-radio-button value="4" (click)="hyundaiClicked()">Hyundai</mat-radio-button>
+     <mat-radio-button value="5"(click)="lexusClicked()">Lexus</mat-radio-button>
+     <mat-radio-button value="6" (click)="bmwClicked()">BMW</mat-radio-button>
+     <mat-radio-button value="7"(click)="audiClicked()">Audi</mat-radio-button>
+     <mat-radio-button value="8" (click)="chevroletClicked()">Chevrolet</mat-radio-button>
+     <mat-radio-button value="9" (click)="lexusClicked()">Lexus</mat-radio-button>
+     <mat-radio-button value="10" (click)="dodgeClicked()">Dodge</mat-radio-button>
+   </mat-radio-group>
+ </div>
