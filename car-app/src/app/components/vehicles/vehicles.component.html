@@ -1,8 +1,7 @@
 <div class="vehicle-container">
-<mat-grid-list cols="3" rowHeight="2:1">
-    <mat-grid-tile *ngFor="let vehicles of Vehicles">
-        <div *ngFor="let img of loadimages">
-            <img [src]="img.src" ></div>
+    <mat-grid-list cols="3" rowHeight="2:1">
+      <mat-grid-tile *ngFor="let vehicle of Vehicles">
+        <img [src]="vehicle.src" [alt]="vehicle.name">
       </mat-grid-tile>
-  </mat-grid-list>
-</div>
+    </mat-grid-list>
+  </div>

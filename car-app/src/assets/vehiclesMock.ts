@@ -1,44 +1,47 @@
 export const details = [
     {
         name:'Toyota',
-        image:'./images/1.jpg'
+        src:'../assets/images/1.jpg',
+        type: 'Hatchback'
     },
     {
         name:'Honda',
-        image:'./images/2.jpg'
+        src:'../assets/images/2.jpg',
+        type: 'SUV'
     },
     {
         name:'Hyundai',
-        image:'./images/3.jpg'
+        src:'../assets/images/3.jpg',
+        type: 'Sedan'
     },
     {
         name:'Lexus',
-        image:'./images/4.jpg'
+        src:'../assets/images/4.jpg',
+        type: 'Hatchback'
     },
     {
         name:'BMW',
-        image:'./images/5.jpg'
+        src:'../assets/images/5.jpg',
+        type: 'SUV'
     },  
     {
         name:'Audi',
-        image:'./images/6.jpg'
+        src:'../assets/images/6.jpg',
+        type: 'SUV'
     },
     {
         name:'Chevrolet',
-        image:'./images/7.jpg'
+        src:'../assets/images/7.jpg',
+        type: 'Hatchback'
     },{
         name:'Lexus',
-        image:'./images/8.jpg'
+        src:'../assets/images/8.jpg',
+        type: 'SUV'
     },
     {
         name:'Dodge',
-        image:'./images/9.jpg'
+        src:'../assets/images/9.jpg',
+        type: 'SUV'
     }
 
 ]
-
-export const loadimages = [
-    {
-       src:'../assets/images/1.jpg'
-    },
-   ]
